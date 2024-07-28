@@ -1,4 +1,8 @@
-const getTheTitles = function() {
+const getTheTitles = function(array) {
+    arr=array.map((item)=>{
+        return item.title
+    })
+    return arr
 
 };
 
